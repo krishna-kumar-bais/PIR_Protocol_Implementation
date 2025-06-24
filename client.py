@@ -11,7 +11,7 @@ NUM_SERVERS = 4
 
 def main():
     # Step 1: Load DB and choose index to retrieve from 0 - 9999
-    index = 700
+    index = 700 # you can change index to retrieve from 0 - 9999
     print(f"Client wants to retrieve database[{index}]")
 
     # Step 2: Create query vector (standard basis)
